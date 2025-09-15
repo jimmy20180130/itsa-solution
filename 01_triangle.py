@@ -1,2 +1,2 @@
-x, y = [int(item) for item in input().split(' ')]
-print('Triangle area:' + str(float(x*y/2)))
+x, y = [int(item) for item in input().split()]
+print(f'Triangle area:{x*y/2:.1f}')
