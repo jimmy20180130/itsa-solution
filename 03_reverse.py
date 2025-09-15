@@ -1,1 +1,1 @@
-print('\n'.join(list(input()[::-1])))
+print(','.join(list(input()[::-1])) + '\n')
